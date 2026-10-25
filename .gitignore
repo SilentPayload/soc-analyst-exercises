@@ -1,0 +1,12 @@
+# Student submissions, kept out of the repo
+submissions/
+answers/
+*.student.md
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
