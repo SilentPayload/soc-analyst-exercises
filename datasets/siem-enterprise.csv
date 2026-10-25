@@ -1,0 +1,67 @@
+timestamp,source_ip,destination_ip,username,event_type,action,severity,protocol,port,bytes_in,bytes_out,country,user_agent,status_code,message
+2024-02-03 08:15:23,192.168.1.105,10.0.0.50,jsmith,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 08:16:45,192.168.1.105,10.0.0.50,jsmith,file_access,success,low,smb,445,0,15360,US,,200,Accessed file: /finance/Q4_report.xlsx
+2024-02-03 08:18:12,203.0.113.45,10.0.0.50,admin,login,failed,medium,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:18:34,203.0.113.45,10.0.0.50,admin,login,failed,medium,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:18:56,203.0.113.45,10.0.0.50,admin,login,failed,medium,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:19:18,203.0.113.45,10.0.0.50,root,login,failed,high,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:19:42,203.0.113.45,10.0.0.50,root,login,failed,high,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:20:05,203.0.113.45,10.0.0.50,root,login,failed,high,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:20:28,203.0.113.45,10.0.0.50,root,login,failed,high,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 08:22:15,192.168.1.108,10.0.0.50,mjohnson,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 08:25:30,192.168.1.105,10.0.0.75,jsmith,database_query,success,low,mysql,3306,1024,8192,US,,200,SELECT query executed on customer_data table
+2024-02-03 08:30:45,45.142.212.61,10.0.0.80,anonymous,port_scan,blocked,high,tcp,0,0,0,RU,,403,Port scan detected from suspicious IP
+2024-02-03 08:31:12,45.142.212.61,10.0.0.80,anonymous,port_scan,blocked,high,tcp,0,0,0,RU,,403,Multiple ports scanned: 21,22,23,80,443
+2024-02-03 08:35:18,192.168.1.112,10.0.0.50,agarcia,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 08:40:22,192.168.1.105,10.0.0.50,jsmith,file_upload,success,medium,https,443,524288,2048,US,Mozilla/5.0,200,Uploaded file: backup_database.sql (512KB)
+2024-02-03 08:45:33,185.220.101.33,10.0.0.50,admin,login,failed,high,ssh,22,512,0,TOR,,401,Failed login attempt from TOR exit node
+2024-02-03 08:46:01,185.220.101.33,10.0.0.50,admin,login,failed,high,ssh,22,512,0,TOR,,401,Failed login attempt from TOR exit node
+2024-02-03 08:48:15,192.168.1.105,10.0.0.75,jsmith,database_query,success,low,mysql,3306,1024,8192,US,,200,SELECT query executed on employee_salaries table
+2024-02-03 08:50:00,192.168.1.108,93.184.216.34,mjohnson,web_request,success,low,https,443,4096,102400,US,Mozilla/5.0,200,Accessed external website: example.com
+2024-02-03 08:55:23,192.168.1.105,10.0.0.50,jsmith,privilege_escalation,success,critical,sudo,0,0,0,US,,200,User escalated privileges using sudo
+2024-02-03 08:56:45,192.168.1.105,10.0.0.75,jsmith,database_query,success,medium,mysql,3306,1024,524288,US,,200,SELECT * FROM users - Retrieved 10000 records
+2024-02-03 09:00:12,192.168.1.120,10.0.0.50,dlee,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 09:05:30,198.51.100.78,10.0.0.80,anonymous,sql_injection,blocked,critical,https,443,2048,512,BR,,403,SQL injection attempt detected: SELECT * FROM users WHERE 1=1--
+2024-02-03 09:06:15,198.51.100.78,10.0.0.80,anonymous,sql_injection,blocked,critical,https,443,2048,512,BR,,403,SQL injection attempt: UNION SELECT password FROM admin
+2024-02-03 09:10:45,192.168.1.108,10.0.0.50,mjohnson,file_access,success,low,smb,445,0,25600,US,,200,Accessed file: /hr/employee_records.xlsx
+2024-02-03 09:15:20,192.168.1.105,10.0.0.75,jsmith,database_query,success,medium,mysql,3306,1024,1048576,US,,200,Large data export: 1MB transferred
+2024-02-03 09:20:33,203.0.113.45,10.0.0.50,admin,login,failed,medium,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 09:25:18,192.168.1.125,10.0.0.50,twilson,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 09:30:00,192.168.1.105,10.0.0.50,jsmith,logout,success,low,https,443,1024,2048,US,Mozilla/5.0,200,User logged out
+2024-02-03 09:35:45,192.168.1.130,10.0.0.50,rbrown,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 09:40:12,192.168.1.108,10.0.0.75,mjohnson,database_query,success,low,mysql,3306,1024,4096,US,,200,SELECT query executed on products table
+2024-02-03 09:45:30,91.198.174.192,10.0.0.80,anonymous,xss_attack,blocked,high,https,443,1024,512,UA,,403,Cross-site scripting attempt: <script>alert('XSS')</script>
+2024-02-03 09:50:00,192.168.1.105,10.0.0.50,jsmith,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 09:55:23,192.168.1.108,10.0.0.50,mjohnson,password_change,success,medium,https,443,2048,2048,US,Mozilla/5.0,200,Password changed successfully
+2024-02-03 10:00:15,203.0.113.45,10.0.0.50,admin,login,failed,medium,ssh,22,512,0,CN,,401,Failed login attempt - invalid password
+2024-02-03 10:05:42,192.168.1.135,10.0.0.50,kpatel,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 10:10:30,192.168.1.105,10.0.0.75,jsmith,database_query,success,low,mysql,3306,1024,8192,US,,200,SELECT query executed on orders table
+2024-02-03 10:15:00,45.142.212.61,10.0.0.80,anonymous,ddos_attack,blocked,critical,tcp,80,0,0,RU,,503,DDoS attack detected - 500 requests per second
+2024-02-03 10:15:30,45.142.212.61,10.0.0.80,anonymous,ddos_attack,blocked,critical,tcp,80,0,0,RU,,503,DDoS attack continues - service degradation
+2024-02-03 10:16:00,45.142.212.61,10.0.0.80,anonymous,ddos_attack,blocked,critical,tcp,80,0,0,RU,,503,DDoS attack persists - blocking IP range
+2024-02-03 10:20:45,192.168.1.108,10.0.0.50,mjohnson,file_download,success,low,https,443,0,102400,US,Mozilla/5.0,200,Downloaded file: company_policy.pdf (100KB)
+2024-02-03 10:25:12,192.168.1.140,10.0.0.50,nrodriguez,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 10:30:00,192.168.1.105,10.0.0.75,jsmith,database_query,success,low,mysql,3306,1024,4096,US,,200,UPDATE query executed on inventory table
+2024-02-03 10:35:30,185.220.101.33,10.0.0.50,root,login,failed,critical,ssh,22,512,0,TOR,,401,Failed root login from TOR - potential breach attempt
+2024-02-03 10:40:15,192.168.1.108,10.0.0.50,mjohnson,file_access,success,medium,smb,445,0,524288,US,,200,Accessed large file: /finance/audit_2024.xlsx (512KB)
+2024-02-03 10:45:00,192.168.1.105,10.0.0.50,jsmith,email_sent,success,low,smtp,25,8192,2048,US,,200,Email sent to: external@competitor.com
+2024-02-03 10:50:23,198.51.100.78,10.0.0.80,anonymous,directory_traversal,blocked,high,https,443,1024,512,BR,,403,Directory traversal attempt: ../../etc/passwd
+2024-02-03 10:55:45,192.168.1.145,10.0.0.50,smartinez,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 11:00:00,192.168.1.105,10.0.0.75,jsmith,database_query,success,medium,mysql,3306,1024,2097152,US,,200,Massive data export: 2MB of customer credit card data
+2024-02-03 11:05:30,192.168.1.108,10.0.0.50,mjohnson,logout,success,low,https,443,1024,2048,US,Mozilla/5.0,200,User logged out
+2024-02-03 11:10:12,203.0.113.45,10.0.0.50,jsmith,login,success,high,ssh,22,2048,4096,CN,,200,Successful login from suspicious IP - China
+2024-02-03 11:15:45,203.0.113.45,10.0.0.50,jsmith,file_download,success,critical,scp,22,0,10485760,CN,,200,Downloaded 10MB file via SCP from China IP
+2024-02-03 11:20:00,192.168.1.120,10.0.0.50,dlee,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 11:25:30,192.168.1.150,10.0.0.50,jthomas,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 11:30:15,91.198.174.192,10.0.0.80,anonymous,malware_upload,blocked,critical,https,443,1048576,0,UA,,403,Malicious file upload blocked: ransomware.exe
+2024-02-03 11:35:00,192.168.1.105,10.0.0.50,jsmith,firewall_rule_change,success,critical,ssh,22,2048,2048,US,,200,Firewall rule modified: Opened port 4444
+2024-02-03 11:40:45,203.0.113.45,10.0.0.50,jsmith,reverse_shell,detected,critical,tcp,4444,0,0,CN,,500,Reverse shell connection detected on port 4444
+2024-02-03 11:45:12,192.168.1.125,10.0.0.50,twilson,suspicious_activity,detected,high,https,443,4096,4096,US,Mozilla/5.0,200,User accessing admin panel without authorization
+2024-02-03 11:50:00,192.168.1.105,10.0.0.75,jsmith,database_query,success,critical,mysql,3306,1024,5242880,US,,200,CRITICAL: 5MB database dump - all tables exported
+2024-02-03 11:55:30,192.168.1.108,10.0.0.50,mjohnson,login,success,low,https,443,2048,4096,US,Mozilla/5.0,200,User logged in successfully
+2024-02-03 12:00:00,10.0.0.99,10.0.0.50,security_system,alert,generated,critical,syslog,514,2048,0,US,,500,ALERT: Potential data breach in progress - User jsmith
+2024-02-03 12:05:15,192.168.1.105,10.0.0.50,jsmith,account_disabled,success,critical,system,0,0,0,US,,200,User account jsmith disabled by security team
+2024-02-03 12:10:00,203.0.113.45,10.0.0.50,jsmith,login,failed,critical,ssh,22,512,0,CN,,401,Login failed - account disabled
+2024-02-03 12:15:45,192.168.1.155,10.0.0.50,admin,login,success,medium,https,443,2048,4096,US,Mozilla/5.0,200,Administrator logged in for incident response
+2024-02-03 12:20:30,192.168.1.155,10.0.0.75,admin,database_query,success,high,mysql,3306,2048,4096,US,,200,Admin reviewing access logs and user activity
+2024-02-03 12:25:00,10.0.0.99,10.0.0.50,security_system,alert,resolved,medium,syslog,514,2048,0,US,,200,Incident contained - compromised account isolated
