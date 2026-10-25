@@ -1,0 +1,11 @@
+username,ip,role,department,failed_logins
+deploy,10.0.2.15,service,ops,0
+root,203.0.113.42,admin,system,14
+jade,41.58.12.9,user,finance,1
+admin,192.0.2.88,admin,system,5
+oracle,203.0.113.42,service,db,3
+postgres,203.0.113.42,service,db,2
+test,192.0.2.88,user,qa,1
+deploy,198.51.100.7,service,ops,0
+git,203.0.113.42,service,dev,1
+sarah,41.58.12.10,user,hr,0

